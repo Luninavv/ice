@@ -20,7 +20,7 @@ a {
 }
 .text {
   font-size: calc(12px + 18 * (100vw / 1280));        /* 30*/
-  font-style: oblique;
+  font-style: italic;
 }
 @media (max-width: 600px) {
 .menu-main {display: block;}
@@ -34,8 +34,8 @@ h2 {
    line-height: 2.5vw;
   }
 p {
-    font-size: 2vw;
-    line-height: 3.5vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
   }
 .text {
   font-size: 2vw;

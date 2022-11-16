@@ -3,33 +3,33 @@ body {
 }
 * {box-sizing: border-box;}     
 .site-header {
-    display: flex;
-    background-color: #DBE8F0;
-    min-height: 20px;
-    margin-bottom: 10px;
+  display: flex;
+  background-color: #DBE8F0;
+  min-height: 20px;
+  margin-bottom: 10px;
 }
 .site-header p {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: rgba(17, 30, 153, 1);
-    font-style: italic;
-    align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: rgba(17, 30, 153, 1);
+  font-style: italic;
+  align-items: flex-start;
 }
 .wrapper {
   width: 100%;
   margin: 5px auto;
   }
 .top-menu {
-    display: flex;
-    margin-left: auto;
-    background-color: #DBE8F0;
+  display: flex;
+  margin-left: auto;
+  background-color: #DBE8F0;
 }
 .navbar-logo {
-    display: inline-block;
-    margin-top: 10px;
-    margin-right:20px;
-    margin-left: 20px;
-    }
+  display: inline-block;
+  margin-top: 10px;
+  margin-right:20px;
+  margin-left: 20px;
+  }
 .navbar-logo img:hover {
   transform: scale(-1, 1)
   }
@@ -109,16 +109,15 @@ margin-left: auto;
   flex-basis: 100%;
 }
 .info-list {
-   padding: 5px;
-   text-align: center;
+  padding: 5px;
+  text-align: center;
 }
-    .info-list p {
-   background: rgba(217, 217, 217, 0.1);
-   color: rgb(177, 233, 250);
-   text-align: center;
+.info-list p {
+background: rgba(217, 217, 217, 0.1);
+color: rgb(177, 233, 250);
+text-align: center;
 }
 img {vertical-align: middle;}
-
 /* Окно слайдера */
 .slideshow-container {
     max-width: 1400px;
@@ -129,7 +128,7 @@ img {vertical-align: middle;}
     display: none;
     max-width: 1400px;
   }
-    /* Стрелки вперед/назад */
+/* Стрелки вперед/назад */
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -146,13 +145,11 @@ img {vertical-align: middle;}
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-
-  /* Синий квадратик на стрелке след/пред при наведении */
+/* Синий квадратик на стрелке след/пред при наведении */
   .prev:hover, .next:hover {
     background-color: rgb(3, 61, 249);
   }
-  
-  /*Подпись картинки*/
+/*Подпись картинки*/
   .text {
     color: rgb(3, 61, 249);
     font: italic bold;
@@ -180,8 +177,7 @@ img {vertical-align: middle;}
     transition: background-color 0.6s ease;
   }
 .active, .dot:hover {
-    background-color:rgb(48, 152, 227)
-    ;
+    background-color:rgb(48, 152, 227);
   }
 .container {
     display: flex;

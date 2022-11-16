@@ -7,8 +7,8 @@ h2 {
    line-height: calc(16px + 18 * (100vw / 1280));      /* 36*/
 }
 p {
-  font-size: calc(12px + 12 * (100vw / 1280));        /* 20*/
-  line-height: calc(14px + 12 * (100vw / 1280));        /* 30*/
+  font-size: calc(10px + 10 * (100vw / 1280));        /* 20*/
+  line-height: calc(12px + 10 * (100vw / 1280));        /* 32*/
 }
 a {
   font-size: calc(12px + 18 * (100vw / 1280));        /* 30*/
@@ -34,8 +34,8 @@ h2 {
    line-height: 2.5vw;
   }
 p {
-    font-size: 1.5vw;
-    line-height: 1.6vw;
+    font-size: 2vw;
+    line-height: 3.5vw;
   }
 .text {
   font-size: 2vw;
@@ -51,7 +51,7 @@ a {
   }
   .imdiz-modal p, .imdiz-modal1 p {
     margin: 0.5vw;
-    font-size: 100%;
-    line-height: 100%;
+    font-size: 80%;
+    line-height: 80%;
   }
 }

@@ -3,21 +3,18 @@
  <head> 
   <meta charset="UTF-8">
   <title>Ледовая арена "Кот на льду"</title>
-  <link rel="stylesheet" type="text/css" href="katok.css">
-  <link rel="stylesheet" type="text/css" href="modal.css">
-  <link rel="stylesheet" type="text/css" href="katok_media.css">
   </head>
 <?php
   require("php/header.php");
 ?>
 <body>
-      <div class="block">
-          <section class="news-list">
+      <div class="inf">
+          <section>
           <?php foreach ($posts as $post) {
           ?>
-          <div class="new-block">
-            <img src="<?php echo $post['imgurl']?>" alt="Картинки нет">
-            <div class="new-block-text">
+          <div class="inf1">
+            <img src="<?php echo $post['imgurl']?>" width="80%" alt="Картинки нет">
+            <div>
               <p><?=$post['text']?></p>
             </div>
           </div>
@@ -34,7 +31,7 @@
                 <p>Директор:<br>
                    Кузнецов Семен Семенович<br>
                    Администратор:<br>Иванов Петр Петрович<br>
-                   Адрес: г.Санкт-Петербург,<br>улица 3-я Строителей, 25
+                   Адрес: г.Санкт-Петербург,<br>улица 3-я Строителей, 25<br>
                    Телефон (812) 3-233-322<br>
                    e-mail: snowcat@mail.ru<br>
                  </p>   

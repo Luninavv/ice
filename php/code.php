@@ -1,8 +1,8 @@
 <?php
-    $dbname = "ice";
+    $dbname = "a927299g_ice";
     $dsn = "mysql:host=localhost;dbname=$dbname";
-    $user = "root";
-    $pass = "";
+    $user = "a927299g_ice";
+    $pass = "Lvv1912viva";
     try {
         $con = new PDO($dsn,$user,$pass);
     } catch(PDOExeption $e){
@@ -21,7 +21,4 @@
     }
 
     $posts = myFetch($send);
-
-    // echo "<pre>";
-    // var_dump($posts);
-    // echo "</pre>";
+    

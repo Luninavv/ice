@@ -5,14 +5,13 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/modal.css">
   <link rel="stylesheet" type="text/css" href="css/media.css">
-  <link rel="stylesheet" type="text/css" href="css/gallery.css">
   <title>Ледовая арена "Кот на льду"</title> 
 </head>
 <body>
   <div class="wrapper">
   <header class="site-header">
           <a class="navbar-logo">
-            <img src="img/logo.png" alt="" width="109" height="74"> 
+            <img src="img/logo.png" alt="" width="100%"> 
           </a>  
           <p>Ледовая арена "Кот на льду"<br>г. Санкт-Петербург, ул. 3-я Строителей, 25<br>т.(812) 3-233-322</p>
           <nav class="top-menu">
@@ -29,14 +28,13 @@
         <div class="left-column">
               <h1> Приглашаем<br> на каток!</h1>
               <h2>Качество льда и наши цены<br>Вас приятно удивят.<br> Работает прокат.</h2>
-              <div><a href="#" class="imdiz-open btn"> Узнать расписание</a>
+              <div><a href="#" class="imdiz-open btn"> Узнать расписание </a>
               </div> 
         </div>
 
         <div class="right-column">
           <img src="img/img0.jpg" style width="100%" alt="Коньки">
         </div>
- 
       </section>  
      <section>
           <div class="info">

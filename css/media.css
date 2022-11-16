@@ -1,25 +1,25 @@
 h1 {
-  font-size: 42px;
-  line-height: 46px;
+  font-size: calc(24px + 18 * (100vw / 1280));          /* 42*/
+  line-height: calc(26px + 18 * (100vw / 1280));        /* 46*/
 }
 h2 {
-   font-size: 32px;
-   line-height: 36px;
+   font-size: calc(14px + 18 * (100vw / 1280));        /* 32*/
+   line-height: calc(16px + 18 * (100vw / 1280));      /* 36*/
 }
 p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: calc(12px + 12 * (100vw / 1280));        /* 20*/
+  line-height: calc(14px + 12 * (100vw / 1280));        /* 30*/
 }
 a {
-  font-size: 30px;
-  line-height: 34px;
+  font-size: calc(12px + 18 * (100vw / 1280));        /* 30*/
+  line-height: calc(16px + 18 * (100vw / 1280));        /* 34*/
 }
 .footer-colom p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: calc(12px + 4 * (100vw / 1280));        /* 16*/
+  line-height: calc(14px + 4 * (100vw / 1280));        /* 20*/
 }
 .text {
-  font-size: 30px;
+  font-size: calc(12px + 18 * (100vw / 1280));        /* 30*/
   font-style: oblique;
 }
 @media (max-width: 600px) {

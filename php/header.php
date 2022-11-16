@@ -9,13 +9,12 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/modal.css">
   <link rel="stylesheet" type="text/css" href="css/media.css">
-  <link rel="stylesheet" type="text/css" href="css/gallery.css">
-   </head>
+  </head>
 <body>
   <div class="wrapper">
       <header class="site-header">
           <a class="navbar-logo">
-            <img src="img/logo.png" alt="" width="109" height="74"> 
+            <img src="img/logo.png" alt="" width="100%"> 
           </a>  
           <p>Ледовая арена "Кот на льду"<br>т. (812) 3-233-322</p>
           <nav class="top-menu">

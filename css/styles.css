@@ -1,6 +1,5 @@
 body {
     background-color: rgba(17, 30, 153, 1);
-    font-family: 'Times New Roman', Times, serif;
 }
 * {box-sizing: border-box;}     
 .site-header {
@@ -42,8 +41,7 @@ body {
   text-decoration: none;
   padding: 0px;
   letter-spacing: 2px;
-  font-family: 'Times New Roman', Times, serif;
-  color:rgba(4, 16, 128, 1);
+  color: rgba(4, 16, 128, 1);
   transition: .3s linear;
 }
 .menu-main a:hover {
@@ -60,7 +58,6 @@ body {
     border-radius: 20px;
     padding: 5px 5px;
     width: auto;
-    font-family: 'Times New Roman';
     font-style: normal;
     text-align: center;
     color: #111E99;
@@ -93,11 +90,9 @@ margin-left: auto;
    margin-top: 0px;
    margin-bottom: 0px;
    color: white ;
-   font-family: 'Times New Roman', Times, serif;
     }
 .left-column h2 {
     color: white ;
-    font-family: 'Times New Roman', Times, serif; 
 }
 .info {
   padding: 0px;
@@ -115,7 +110,6 @@ margin-left: auto;
 }
     .info-list p {
    background: rgba(217, 217, 217, 0.1);
-   font-family: 'Times New Roman', Times, serif;
    color: rgb(177, 233, 250);
    text-align: center;
 }
@@ -161,7 +155,7 @@ img {vertical-align: middle;}
   /* Caption text */
   .text {
     color: #111E99;
-    font-style: italic;
+    font: italic bold;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -198,7 +192,7 @@ img {vertical-align: middle;}
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+   /* animation-duration: 1.5s;*/
   }
   
   @-webkit-keyframes fade {
@@ -247,9 +241,6 @@ img {vertical-align: middle;}
   position: relative;
 	border: 1px solid rgba(17, 30, 153, 1);
   background: rgba(217, 217, 217, 0.1);
-  line-height: 30px;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
   color: rgb(177, 233, 250);
   text-align: center;
 }
